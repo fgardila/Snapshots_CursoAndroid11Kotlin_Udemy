@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Snapshots</string>
+    <string name="home_title">Inicio</string>
+    <string name="add_title">Crear</string>
+    <string name="profile_title">Perfil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
