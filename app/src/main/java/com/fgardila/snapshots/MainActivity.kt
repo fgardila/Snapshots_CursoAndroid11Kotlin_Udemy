@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
             .commit()
         mFragmentManager.beginTransaction()
             .add(R.id.hostFragment, addFragment, AddFragment::class.java.name)
-            .hide(profileFragment)
+            .hide(addFragment)
             .commit()
         mFragmentManager.beginTransaction()
             .add(R.id.hostFragment, homeFragment, HomeFragment::class.java.name)
