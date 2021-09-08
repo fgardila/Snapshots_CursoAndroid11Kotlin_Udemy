@@ -22,6 +22,12 @@ class MainActivity : AppCompatActivity() {
     private fun setupBottomNav() {
         mFragmentManager = supportFragmentManager
 
+        mFragmentManager.let {
+            for (fragment in it.fragments) {
+                it.beginTransaction().remove(fragment!!).commit()
+            }
+        }
+
         val homeFragment = HomeFragment()
         val addFragment = AddFragment()
         val profileFragment = ProfileFragment()

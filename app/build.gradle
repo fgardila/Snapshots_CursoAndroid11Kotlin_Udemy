@@ -51,10 +51,9 @@ dependencies {
     implementation 'com.google.firebase:firebase-firestore-ktx'
     implementation 'com.google.firebase:firebase-auth-ktx'
 
-    implementation 'com.firebaseui:firebase-ui-storage:8.0.0'
-    implementation 'com.firebaseui:firebase-ui-auth:8.0.0'
-    implementation 'com.firebaseui:firebase-ui-firestore:8.0.0'
-    implementation 'com.firebaseui:firebase-ui-database:8.0.0'
+    implementation 'com.firebaseui:firebase-ui-storage:7.1.1'
+    implementation 'com.firebaseui:firebase-ui-auth:7.1.1'
+    implementation 'com.firebaseui:firebase-ui-database:7.1.1'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
